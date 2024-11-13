@@ -1,0 +1,25 @@
+Package: Shinypackage
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: Timofei Shashkov
+Maintainer: <timofei.shashkov@unil.ch>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 2.10)
+Imports:
+  bslib,
+  magrittr,
+  shiny
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+URL: https://github.com/timofeishashkov/Shinypackage
+Config/testthat/edition: 3
