@@ -13,6 +13,7 @@ shinyFunction <- function(){ ... }
 #'   shinyFunction()
 #' }
 
+
 shinyFunction <- function(data = datasets::mtcars){
 histogramModuleUI <- function(id) {
 ns <- NS(id)
