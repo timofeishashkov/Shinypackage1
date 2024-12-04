@@ -37,6 +37,7 @@ sidebarLayout(
 )
 }
 
+
 # Define the server logic for the histogram and summary module
 histogramModuleServer <- function(id) {
   moduleServer(id, function(input, output, session) {
